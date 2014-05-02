@@ -26,7 +26,7 @@
                 PageCacheDisabled = true,
                 DatabasesDisabled = true,
             };
-            _webView = new WebView("http://www.evision-software.com/", browserSettings);
+            _webView = new WebView("http://zombo.com/", browserSettings);
             _propertyChangeHandlers.Add("Address", () => AddressTextBox.Text = _webView.Address);
             _webView.PropertyChanged += (sender, args) =>
             {
