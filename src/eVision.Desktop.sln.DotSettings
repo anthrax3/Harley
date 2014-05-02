@@ -1,0 +1,212 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/CodeInspection/CodeAnnotations/NamespacesWithAnnotations/=eVision_002EAcme_002ETests_002EAnnotations/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/CodeAnnotations/NamespacesWithAnnotations/=eVision_002EAnnotations/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/CodeAnnotations/NamespacesWithAnnotations/=eVision_002EShell_002EAnnotations/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/CodeAnnotations/NamespacesWithAnnotations/=eVision_002EShell_002EDebugHost_002EAnnotations/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeInspection/CodeAnnotations/NamespacesWithAnnotations/=eVision_002ETests_002EAnnotations/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ClassNeverInstantiated_002EGlobal/@EntryIndexedValue">HINT</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=InconsistentNaming/@EntryIndexedValue">HINT</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MemberCanBePrivate_002EGlobal/@EntryIndexedValue">HINT</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantArgumentNameForLiteralExpression/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ReturnTypeCanBeEnumerable_002EGlobal/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SuggestUseVarKeywordEverywhere/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UnusedMember_002EGlobal/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeCleanup/Profiles/=FastNet/@EntryIndexedValue">&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;Profile name="FastNet"&gt;&lt;AspOptimizeRegisterDirectives&gt;True&lt;/AspOptimizeRegisterDirectives&gt;&lt;HtmlReformatCode&gt;True&lt;/HtmlReformatCode&gt;&lt;CSArrangeThisQualifier&gt;True&lt;/CSArrangeThisQualifier&gt;&lt;RemoveCodeRedundancies&gt;True&lt;/RemoveCodeRedundancies&gt;&lt;CSUseAutoProperty&gt;True&lt;/CSUseAutoProperty&gt;&lt;CSMakeFieldReadonly&gt;True&lt;/CSMakeFieldReadonly&gt;&lt;CSUseVar&gt;&lt;BehavourStyle&gt;CAN_CHANGE_BOTH&lt;/BehavourStyle&gt;&lt;LocalVariableStyle&gt;IMPLICIT_WHEN_INITIALIZER_HAS_TYPE&lt;/LocalVariableStyle&gt;&lt;ForeachVariableStyle&gt;ALWAYS_EXPLICIT&lt;/ForeachVariableStyle&gt;&lt;/CSUseVar&gt;&lt;CSOptimizeUsings&gt;&lt;OptimizeUsings&gt;True&lt;/OptimizeUsings&gt;&lt;EmbraceInRegion&gt;False&lt;/EmbraceInRegion&gt;&lt;RegionName&gt;&lt;/RegionName&gt;&lt;/CSOptimizeUsings&gt;&lt;CSShortenReferences&gt;True&lt;/CSShortenReferences&gt;&lt;CSReformatCode&gt;True&lt;/CSReformatCode&gt;&lt;CSharpFormatDocComments&gt;True&lt;/CSharpFormatDocComments&gt;&lt;CSReorderTypeMembers&gt;True&lt;/CSReorderTypeMembers&gt;&lt;XMLReformatCode&gt;True&lt;/XMLReformatCode&gt;&lt;CssReformatCode&gt;True&lt;/CssReformatCode&gt;&lt;CssAlphabetizeProperties&gt;True&lt;/CssAlphabetizeProperties&gt;&lt;JsFormatDocComments&gt;True&lt;/JsFormatDocComments&gt;&lt;JsReformatCode&gt;True&lt;/JsReformatCode&gt;&lt;JsInsertSemicolon&gt;True&lt;/JsInsertSemicolon&gt;&lt;/Profile&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeCleanup/SilentCleanupProfile/@EntryValue">FastNet</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/EMPTY_BLOCK_STYLE/@EntryValue">TOGETHER</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/FORCE_FIXED_BRACES_STYLE/@EntryValue">ALWAYS_ADD</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/FORCE_FOR_BRACES_STYLE/@EntryValue">ALWAYS_ADD</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/FORCE_FOREACH_BRACES_STYLE/@EntryValue">ALWAYS_ADD</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/FORCE_IFELSE_BRACES_STYLE/@EntryValue">ALWAYS_ADD</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/FORCE_WHILE_BRACES_STYLE/@EntryValue">ALWAYS_ADD</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_AFTER_TYPECAST_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_CATCH_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_FIXED_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_FOR_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_FOREACH_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_IF_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_LOCK_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_SIZEOF_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_SWITCH_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_TYPEOF_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_USING_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_WHILE_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_LIMIT/@EntryValue">160</s:Int64>
+	<s:Boolean x:Key="/Default/CodeStyle/CSharpUsing/AddImportsToDeepestScope/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CSharpUsing/QualifiedUsingAtNestedScope/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=MethodPropertyEvent/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb"&gt;&lt;ExtraRule Prefix="" Suffix="" Style="Aa_bb" /&gt;&lt;ExtraRule Prefix="" Suffix="" Style="aa_bb" /&gt;&lt;ExtraRule Prefix="" Suffix="" Style="AaBb_aaBb" /&gt;&lt;/Policy&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=PrivateStaticFields/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=TypesAndNamespaces/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb"&gt;&lt;ExtraRule Prefix="" Suffix="" Style="Aa_bb" /&gt;&lt;ExtraRule Prefix="" Suffix="" Style="aa_bb" /&gt;&lt;/Policy&gt;</s:String>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateBlankLinesAroundFieldToBlankLinesAroundProperty/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/JavaScriptUnitTestProviders/JavaScriptTestEngine/@EntryValue">Browser</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/JavaScriptUnitTestProviders/PhantomJSLocation/@EntryValue">packages\PhantomJS.1.9.7\tools\phantomjs\phantomjs.exe</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Description/@EntryValue">Exception</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Field/=DATATYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Field/=DATATYPE/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Field/=DESCRIPTION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Field/=DESCRIPTION/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Field/=MEMBER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Field/=MEMBER/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Field/=PROPERTYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Field/=PROPERTYNAME/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Field/=TYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Field/=TYPE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Shortcut/@EntryValue">ex</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=43C965D1847EE24D9DEFB799E0D3976A/Text/@EntryValue">/// &lt;summary&gt;&#xD;
+/// Exception thrown when $DESCRIPTION$&#xD;
+/// &lt;/summary&gt;&#xD;
+/// &lt;remarks&gt;&#xD;
+/// Contains a custom property, thus it Implements ISerializable &#xD;
+/// and the special serialization constructor.&#xD;
+/// &lt;/remarks&gt;&#xD;
+[Serializable]&#xD;
+public sealed class $TYPE$Exception : Exception, ISerializable&#xD;
+{&#xD;
+	$DATATYPE$ _$MEMBER$ = null;&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+	/// Initializes a new instance of the &lt;see cref="$TYPE$Exception"/&gt; class.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	public $TYPE$Exception() : base()&#xD;
+	{&#xD;
+	}&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+	/// Initializes a new instance of the &lt;see cref="$TYPE$Exception"/&gt; class.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	/// &lt;param name="message"&gt;The message.&lt;/param&gt;&#xD;
+	public $TYPE$Exception(string message) : base(message)&#xD;
+	{}&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+	/// Initializes a new instance of the &lt;see cref="$TYPE$Exception"/&gt; class.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	/// &lt;param name="message"&gt;The message.&lt;/param&gt;&#xD;
+	/// &lt;param name="innerException"&gt;The inner exception.&lt;/param&gt;&#xD;
+	public $TYPE$Exception(string message, Exception innerException) : base(message, innerException)&#xD;
+	{}&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+	/// Initializes a new instance of the &lt;see cref="$TYPE$Exception"/&gt; class.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	/// &lt;param name="message"&gt;The message.&lt;/param&gt;&#xD;
+	/// &lt;param name="$MEMBER$"&gt;The $MEMBER$.&lt;/param&gt;&#xD;
+	public $TYPE$Exception(string message, $DATATYPE$ $MEMBER$) : base(message)&#xD;
+	{&#xD;
+		_$MEMBER$ = $MEMBER$;&#xD;
+	}&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+	/// Initializes a new instance of the &lt;see cref="$TYPE$Exception"/&gt; class.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	/// &lt;param name="message"&gt;The message.&lt;/param&gt;&#xD;
+	/// &lt;param name="$MEMBER$"&gt;The $MEMBER$.&lt;/param&gt;&#xD;
+	/// &lt;param name="innerException"&gt;The inner exception.&lt;/param&gt;&#xD;
+	public $TYPE$Exception(string message, $DATATYPE$ $MEMBER$, Exception innerException) : base(message, innerException)&#xD;
+	{&#xD;
+		_$MEMBER$ = $MEMBER$;&#xD;
+	}&#xD;
+	&#xD;
+	// Because this class is sealed, this constructor is private. &#xD;
+	// if this class is not sealed, this constructor should be protected.&#xD;
+	private $TYPE$Exception(SerializationInfo info, StreamingContext context) : base(info, context)&#xD;
+	{&#xD;
+		_$MEMBER$ = info.GetValue("$PROPERTYNAME$", typeof($DATATYPE$)) as $DATATYPE$;&#xD;
+	}&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+	/// When overridden in a derived class, sets the &lt;see cref="T:System.Runtime.Serialization.SerializationInfo"/&gt;&#xD;
+	/// with information about the exception.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	/// &lt;param name="info"&gt;The &lt;see cref="T:System.Runtime.Serialization.SerializationInfo"/&gt; that holds the serialized object data about the exception being thrown.&lt;/param&gt;&#xD;
+	/// &lt;param name="context"&gt;The &lt;see cref="T:System.Runtime.Serialization.StreamingContext"/&gt; that contains contextual information about the source or destination.&lt;/param&gt;&#xD;
+	/// &lt;exception &#xD;
+	void ISerializable.GetObjectData(SerializationInfo info, StreamingContext context)&#xD;
+	{&#xD;
+		info.AddValue("$PROPERTYNAME$", _$MEMBER$);&#xD;
+		base.GetObjectData(info, context);&#xD;
+	}&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+	/// Gets the $PROPERTYNAME$.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	public $DATATYPE$ $PROPERTYNAME$&#xD;
+	{&#xD;
+		get { return _$MEMBER$; }&#xD;
+	}&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+	/// Gets a message that describes the current exception.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	/// &lt;value&gt;&lt;/value&gt;&#xD;
+	public override string Message&#xD;
+	{&#xD;
+		get&#xD;
+		{&#xD;
+			string message = base.Message;&#xD;
+			if($PROPERTYNAME$ != null)&#xD;
+				message += Environment.NewLine + "$PROPERTYNAME$: " + _$MEMBER$.ToString();&#xD;
+			return message;&#xD;
+		}&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/Description/@EntryValue">Exception Simple</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/Field/=DESCRIPTION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/Field/=DESCRIPTION/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/Field/=TYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/Field/=TYPE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/Shortcut/@EntryValue">exs</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E373AA08548D074CBDE4640A5BB6A63F/Text/@EntryValue">/// &lt;summary&gt;&#xD;
+/// Exception thrown when $DESCRIPTION$&#xD;
+/// &lt;/summary&gt;&#xD;
+/// &lt;remarks&gt;&#xD;
+/// This exception does not have any custom properties, &#xD;
+/// thus it does not implement ISerializable.&#xD;
+/// &lt;/remarks&gt;&#xD;
+[Serializable]&#xD;
+public sealed class $TYPE$Exception : Exception&#xD;
+{&#xD;
+	/// &lt;summary&gt;&#xD;
+	/// Initializes a new instance of the &lt;see cref="$TYPE$Exception"/&gt; class.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	public $TYPE$Exception() : base()&#xD;
+	{&#xD;
+	}&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+	/// Initializes a new instance of the &lt;see cref="$TYPE$Exception"/&gt; class.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	/// &lt;param name="message"&gt;The message.&lt;/param&gt;&#xD;
+	public $TYPE$Exception(string message) : base(message)&#xD;
+	{}&#xD;
+		&#xD;
+	/// &lt;summary&gt;&#xD;
+	/// Initializes a new instance of the &lt;see cref="$TYPE$Exception"/&gt; class.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	/// &lt;param name="message"&gt;The message.&lt;/param&gt;&#xD;
+	/// &lt;param name="innerException"&gt;The inner exception.&lt;/param&gt;&#xD;
+	public $TYPE$Exception(string message, Exception innerException) : base(message, innerException)&#xD;
+	{}&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+	/// Initializes a new instance of the &lt;see cref="$TYPE$Exception"/&gt; class.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	/// &lt;param name="message"&gt;The message.&lt;/param&gt;&#xD;
+	public $TYPE$Exception(string message) : base(message)&#xD;
+	{&#xD;
+	}&#xD;
+}</s:String></wpf:ResourceDictionary>
