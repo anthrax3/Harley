@@ -11,12 +11,12 @@
     /// <summary>
     ///     Interaction logic for UserControl1.xaml
     /// </summary>
-    public partial class EmbeddedOwinBrowser
+    public partial class EmbeddedBrowser
     {
         private readonly Dictionary<string, Action> _propertyChangeHandlers = new Dictionary<string, Action>();
         private readonly WebView _webView;
 
-        public EmbeddedOwinBrowser()
+        public EmbeddedBrowser()
         {
             InitializeComponent();
 

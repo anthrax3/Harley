@@ -17,7 +17,7 @@
         {
             Title = title ?? Title;
 
-            EmbeddedOwinBrowser.Init(appFunc);
+            EmbeddedBrowser.Init(appFunc);
             InitializeComponent();
         }
     }
