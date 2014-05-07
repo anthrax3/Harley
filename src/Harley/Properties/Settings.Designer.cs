@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace eVision.Desktop.Properties
+namespace Harley.Properties
 {
 
 

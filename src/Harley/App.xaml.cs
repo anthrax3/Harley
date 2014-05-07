@@ -1,4 +1,4 @@
-﻿namespace eVision.Desktop
+﻿namespace Harley
 {
     using System.Windows;
 

@@ -1,4 +1,4 @@
-﻿namespace eVision.Desktop.UI
+﻿namespace Harley.UI
 {
     using System;
     using System.Collections.Generic;
