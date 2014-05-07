@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30110.0
@@ -10,9 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8807FA
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eVision.Desktop.UI", "eVision.Desktop.UI\eVision.Desktop.UI.csproj", "{9CDE89E9-9A1F-4FC8-923A-D99273536884}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harley.UI", "Harley.UI\Harley.UI.csproj", "{9CDE89E9-9A1F-4FC8-923A-D99273536884}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eVision.Desktop", "eVision.Desktop\eVision.Desktop.csproj", "{35EECB50-898A-4B40-9EAB-D6F11CF57CD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harley", "Harley\Harley.csproj", "{35EECB50-898A-4B40-9EAB-D6F11CF57CD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
