@@ -1,9 +1,5 @@
 ﻿namespace Harley.UI
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Threading.Tasks;
-    using System.Windows;
     using System.Windows.Input;
     using CefSharp;
     using CefSharp.Wpf;
@@ -13,7 +9,6 @@
     /// </summary>
     public partial class EmbeddedBrowser
     {
-        private readonly Dictionary<string, Action> _propertyChangeHandlers = new Dictionary<string, Action>();
         private readonly WebView _webView;
 
         public EmbeddedBrowser()
@@ -26,46 +21,24 @@
                 PageCacheDisabled = true,
                 DatabasesDisabled = true,
             };
-            _webView = new WebView("http://zombo.com/", browserSettings);
-            _propertyChangeHandlers.Add("Address", () => AddressTextBox.Text = _webView.Address);
-            _webView.PropertyChanged += (sender, args) =>
-            {
-                Action handler;
-                if(_propertyChangeHandlers.TryGetValue(args.PropertyName, out handler))
-                {
-                    Dispatcher.Invoke(handler);
-                }
-            };
+            _webView = new WebView("about:blank", browserSettings);
             DockPanel.Children.Add(_webView);
         }
 
-        public static void Init(Func<IDictionary<string, object>, Task> appFunc)
+        public string Address
+        {
+            get { return _webView.Address; }
+            set { _webView.Address = value; }
+        }
+
+        public static void Init()
         {
             var settings = new Settings();
             if(CEF.Initialize(settings))
             {
                 // Plug in custom scheme handler here.
-                //CEF.RegisterScheme("http", new OwinSchemeHandlerFactory(appFunc));
+                //CEF.RegisterScheme("http", ...)
             }
-        }
-
-        private void AddressTextBox_OnKeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.Key != Key.Enter)
-            {
-                return;
-            }
-            _webView.Load(AddressTextBox.Text);
-        }
-
-        private void ForwardButton_OnClick(object sender, RoutedEventArgs e)
-        {
-            _webView.Forward();
-        }
-
-        private void BackButton_OnClick(object sender, RoutedEventArgs e)
-        {
-            _webView.Back();
         }
 
         private void EmbeddedOwinBrowser_OnKeyDown(object sender, KeyEventArgs e)

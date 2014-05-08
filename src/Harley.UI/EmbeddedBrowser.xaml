@@ -7,19 +7,5 @@
              d:DesignHeight="300" d:DesignWidth="300"
              KeyDown="EmbeddedOwinBrowser_OnKeyDown">
     <DockPanel LastChildFill="True" Name="DockPanel">
-        <DockPanel VerticalAlignment="Top" DockPanel.Dock="Top">
-            <Button Height="23"
-                        Name="BackButton"
-                        Width="75"
-                        Click="BackButton_OnClick">Back</Button>
-            <Button Height="23"
-                        Name="ForwardButton"
-                        Width="75"
-                        Click="ForwardButton_OnClick">Forward</Button>
-            <TextBox Height="23"
-                         Name="AddressTextBox"
-                         Text="{Binding ElementName=WebView, Path=Address, Mode=OneWay}"
-                         KeyDown="AddressTextBox_OnKeyDown"/>
-        </DockPanel>
     </DockPanel>
 </UserControl>

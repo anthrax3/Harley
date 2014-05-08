@@ -5,6 +5,6 @@
         Title="eVision Desktop" 
         WindowStartupLocation="CenterScreen" Height="600" Width="800">
     <Grid>
-        <ui:EmbeddedBrowser/>
+        <ui:EmbeddedBrowser x:Name="Browser"/>
     </Grid>
 </Window>
